@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "image": "https://acebangladesh.com/wp-content/uploads/2023/07/Arif.jpg",
+      "name": "Barrister Arif Rahman",
+      "specialty": "Criminal Law",
+      "experience": "12 years",
+      "license_number": "BD-CL-001",
+      "details": "Barrister Arif is a renowned criminal lawyer with over a decade of experience in high-profile cases. He has a reputation for defending clients with integrity and dedication, always ensuring justice is served.",
+      "fee": 3500,
+      "available_day": ["Sunday", "Tuesday", "Thursday"],
+      "practice_place": "Dhaka"
+    },
+    {
+      "id": 2,
+      "image": "https://lawacademyadmin.icicle.dev/backend/assets/advocate-image/1203909818.jpg",
+      "name": "Advocate Farzana Islam",
+      "specialty": "Family Law",
+      "experience": "8 years",
+      "license_number": "BD-FL-102",
+      "details": "Advocate Farzana specializes in family disputes, divorce, and custody battles. She is known for her compassionate approach and firm legal representation in sensitive family matters.",
+      "fee": 3000,
+      "available_day": ["Monday", "Wednesday", "Saturday"],
+      "practice_place": "Chittagong"
+    },
+    {
+      "id": 3,
+      "image": "https://www.fmassociatesbd.com/images/individual/Barrister_advocate_supremecourt_appellatedivision_Corporate_lawyer_bangladesh_alaminrahman.jpg",
+      "name": "Advocate Imran Hossain",
+      "specialty": "Corporate Law",
+      "experience": "10 years",
+      "license_number": "BD-CO-303",
+      "details": "Imran has worked with major corporations in Bangladesh and provides top-tier legal advice on mergers, acquisitions, and regulatory compliance. He is a strategic thinker with a sharp business sense.",
+      "fee": 5000,
+      "available_day": ["Sunday", "Tuesday"],
+      "practice_place": "Sylhet"
+    },
+    {
+      "id": 4,
+      "image": "https://legalcounselbd.com/wp-content/uploads/2020/12/BARRISTER-MITI-SANJANA.jpg",
+      "name": "Barrister Naila Siddiqui",
+      "specialty": "Human Rights Law",
+      "experience": "7 years",
+      "license_number": "BD-HR-421",
+      "details": "Barrister Naila is a passionate advocate for human rights and social justice. She has represented clients in landmark cases and is actively involved with NGOs and civil society organizations.",
+      "fee": 2800,
+      "available_day": ["Monday", "Thursday", "Friday"],
+      "practice_place": "Rajshahi"
+    },
+    {
+      "id": 5,
+      "image": "https://www.fmassociatesbd.com/images/individual/ADVOCATE_ASHIQUL_ISLAM_BUSINESS_LAWYER.JPG",
+      "name": "Advocate Tanvir Ahmed",
+      "specialty": "Civil Law",
+      "experience": "15 years",
+      "license_number": "BD-CI-589",
+      "details": "Tanvir is a seasoned civil litigator known for resolving property disputes and contractual issues efficiently. He is well-respected for his ethical approach and thorough case preparation.",
+      "fee": 4000,
+      "available_day": ["Tuesday", "Wednesday", "Saturday"],
+      "practice_place": "Khulna"
+    },
+    {
+      "id": 6,
+      "image": "https://legalcounselbd.com/wp-content/uploads/2020/12/ADVOCATE-AFRIN-JAHAN-KHAN.jpg",
+      "name": "Advocate Laila Haque",
+      "specialty": "Immigration Law",
+      "experience": "9 years",
+      "license_number": "BD-IM-615",
+      "details": "Laila helps clients navigate complex immigration issues, including work permits, visas, and citizenship matters. Her attention to detail and supportive guidance make her a trusted advisor.",
+      "fee": 3200,
+      "available_day": ["Sunday", "Wednesday", "Friday"],
+      "practice_place": "Barisal"
+    },
+    {
+      "id": 7,
+      "image": "https://lawfirm.com.bd/wp-content/uploads/2023/12/Jpg-720-rotated.jpg",
+      "name": "Advocate Shahinul Kabir",
+      "specialty": "Tax Law",
+      "experience": "11 years",
+      "license_number": "BD-TX-731",
+      "details": "With extensive experience in tax litigation and consultancy, Shahinul advises businesses and individuals on tax planning and disputes. He has saved clients millions in potential liabilities.",
+      "fee": 4500,
+      "available_day": ["Monday", "Thursday"],
+      "practice_place": "Comilla"
+    },
+    {
+      "id": 8,
+      "image": "https://legalcounselbd.com/wp-content/uploads/2023/01/Barrister-Mehzabin-Khan.jpg",
+      "name": "Advocate Munira Khatun",
+      "specialty": "Environmental Law",
+      "experience": "6 years",
+      "license_number": "BD-EN-844",
+      "details": "Munira is passionate about protecting the environment through the legal system. She works with organizations and activists to challenge unlawful practices that harm nature and public health.",
+      "fee": 2900,
+      "available_day": ["Tuesday", "Friday", "Saturday"],
+      "practice_place": "Mymensingh"
+    },
+    {
+      "id": 9,
+      "image": "https://www.fmassociatesbd.com/images/individual/lawyer_barrister_wazedjamil_associate_fmassociates.jpg",
+      "name": "Barrister Saif Hasan",
+      "specialty": "Constitutional Law",
+      "experience": "13 years",
+      "license_number": "BD-CS-911",
+      "details": "Saif specializes in constitutional litigation, often appearing in high courts to argue cases of national significance. His work focuses on civil liberties, electoral law, and legal reform.",
+      "fee": 6000,
+      "available_day": ["Sunday", "Wednesday"],
+      "practice_place": "Dhaka"
+    },
+    {
+      "id": 10,
+      "image": "https://legalcounselbd.com/wp-content/uploads/2020/12/ADVOCATE-ANTHONIA-COSTA.jpg",
+      "name": "Advocate Tamanna Rahman",
+      "specialty": "Labor Law",
+      "experience": "7 years",
+      "license_number": "BD-LA-1021",
+      "details": "Tamanna helps protect the rights of workers and ensures compliance with labor laws. She represents both employees and employers in negotiations and dispute resolutions.",
+      "fee": 3100,
+      "available_day": ["Monday", "Wednesday", "Saturday"],
+      "practice_place": "Gazipur"
+    },
+    {
+      "id": 11,
+      "image": "https://lawvalley.com.bd/wp-content/uploads/2025/02/1d79dac6-b69d-4303-85cc-531ce6b477c0.jpeg",
+      "name": "Advocate Zubair Karim",
+      "specialty": "Cyber Law",
+      "experience": "5 years",
+      "license_number": "BD-CY-1103",
+      "details": "Zubair is a tech-savvy lawyer dealing with cybercrime, digital privacy, and IT regulations. He advises startups and handles litigation related to online fraud and data breaches.",
+      "fee": 3300,
+      "available_day": ["Tuesday", "Thursday", "Friday"],
+      "practice_place": "Narayanganj"
+    },
+    {
+      "id": 12,
+      "image": "https://www.fmassociatesbd.com/images/About_us/334b7b83-79e5-412b-92ab-9370605045bb.jpg",
+      "name": "Barrister Tanjina Akter",
+      "specialty": "Intellectual Property Law",
+      "experience": "6 years",
+      "license_number": "BD-IP-1207",
+      "details": "Tanjina works with artists, inventors, and businesses to protect their intellectual property rights. She handles copyright, trademark, and patent registrations and disputes.",
+      "fee": 3900,
+      "available_day": ["Sunday", "Thursday"],
+      "practice_place": "Rangpur"
+    }
+  ]
+  

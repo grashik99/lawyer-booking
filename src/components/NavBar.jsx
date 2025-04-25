@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Links from './Links';
 import logo from '../assets/logo.png'
+import { Link } from 'react-router';
 
 const themes = ['light', 'dark', 'cupcake', 'emerald', 'corporate', 'synthwave', 'retro', 'cyberpunk', 'aqua', 'fantasy', 'lemonade']
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
 
 
     // Theme Control start.
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState("aqua");
     useEffect(() => {
         document.documentElement.setAttribute("data-theme", theme)
     }, [theme])
@@ -34,10 +35,12 @@ const NavBar = () => {
                         <Links />
                     </ul>
                 </div>
-                <div className='btn '>
-                    <img src={logo} alt="logo" className='h-5 md:h-7' />
-                    <h1 className='text-xl md:text-3xl font-bold'>Law.bd</h1>
-                </div>
+                <Link to="/">
+                    <div className='btn '>
+                        <img src={logo} alt="logo" className='h-5 md:h-7' />
+                        <h1 className='text-xl md:text-3xl font-bold'>Law.bd</h1>
+                    </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-2">
@@ -45,7 +48,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn font-black text-xl" onClick={handleTheme}>{theme}</a>
+                <a className="btn font-black text-xl" onClick={handleTheme} title='Change Theme'>{theme}</a>
             </div>
         </div>
     );

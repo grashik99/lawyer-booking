@@ -4,7 +4,7 @@ import Links from './Links';
 const Footer = () => {
     return (
         <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-            <nav className="grid grid-flow-col gap-4 list-none">
+            <nav className="grid md:grid-flow-col gap-4 list-none">
                 <Links />
             </nav>
             <hr className='w-4/5' style={{ border: '1px solid' }} />
