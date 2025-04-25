@@ -3,24 +3,24 @@ import NavBar from '../components/NavBar';
 import { Outlet } from 'react-router';
 import Footer from '../components/Footer';
 
-const LayerContext = createContext(null);
+export const LawyerContext = createContext(null);
 
 const HomeLayouts = () => {
 
-    const [lawyer, setLawyer] = useState([]);
+    const [lawyers, setLawyers] = useState([]);
     useEffect(() => {
         fetch('lawyer.json')
             .then(res => res.json())
-            .then(data => setLawyer(data))
+            .then(data => setLawyers(data))
     }, [])
 
     return (
         <div>
-            <LayerContext.Provider value={{lawyer}}>
+            <LawyerContext.Provider value={{lawyers}}>
                 <NavBar />
                 <div className='min-h-[calc(100vh-290px)]'><Outlet /></div>
                 <Footer />
-            </LayerContext.Provider>
+            </LawyerContext.Provider>
         </div>
     );
 };

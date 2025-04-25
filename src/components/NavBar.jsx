@@ -9,7 +9,7 @@ const NavBar = () => {
 
 
     // Theme Control start.
-    const [theme, setTheme] = useState("aqua");
+    const [theme, setTheme] = useState("light");
     useEffect(() => {
         document.documentElement.setAttribute("data-theme", theme)
     }, [theme])
